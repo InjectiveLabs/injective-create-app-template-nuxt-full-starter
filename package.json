@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.16.19",
+    "nuxt": "^3.6.2",
+    "typescript": "5.0"
+  },
+  "dependencies": {
+    "@bangjelkoski/vite-plugin-node-polyfills": "^0.0.2",
+    "@injectivelabs/bridge-ts": "^1.11.0",
+    "@injectivelabs/contracts": "^1.11.0",
+    "@injectivelabs/exceptions": "^1.11.0",
+    "@injectivelabs/networks": "^1.11.0",
+    "@injectivelabs/sdk-ts": "^1.11.0",
+    "@injectivelabs/sdk-ui-ts": "^1.11.0",
+    "@injectivelabs/test-utils": "^1.11.0",
+    "@injectivelabs/token-metadata": "^1.11.0",
+    "@injectivelabs/token-utils": "^1.11.0",
+    "@injectivelabs/ts-types": "^1.11.0",
+    "@injectivelabs/utils": "^1.11.0",
+    "@injectivelabs/wallet-ts": "^1.11.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@vueuse/nuxt": "^10.2.1",
+    "pinia": "^2.1.4"
+  }
+}
