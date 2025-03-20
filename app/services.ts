@@ -1,5 +1,5 @@
 import { Network, getNetworkEndpoints } from "@injectivelabs/networks";
-import { MsgBroadcaster } from "@injectivelabs/wallet-ts";
+import { MsgBroadcaster } from "@injectivelabs/wallet-core";
 import { walletStrategy } from "./services/wallet";
 
 export const NETWORK = Network.TestnetK8s;

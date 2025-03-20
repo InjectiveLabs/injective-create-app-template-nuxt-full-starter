@@ -1,4 +1,4 @@
-import { WalletStrategy } from "@injectivelabs/wallet-ts";
+import { WalletStrategy } from "@injectivelabs/wallet-strategy";
 import { Web3Exception } from "@injectivelabs/exceptions";
 import {
   CHAIN_ID,
