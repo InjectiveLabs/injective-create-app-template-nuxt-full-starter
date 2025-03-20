@@ -1,4 +1,4 @@
-import { Network } from "@injectivelabs/networks";
+import { getNetworkEndpoints, Network } from "@injectivelabs/networks";
 import { ChainId, EthereumChainId } from "@injectivelabs/ts-types";
 
 export const IS_PRODUCTION: boolean = import.meta.env.PROD as boolean;
@@ -22,6 +22,7 @@ export const CHAIN_ID = (env.VITE_CHAIN_ID || ChainId.Testnet) as ChainId;
 
 export const NETWORK: Network =
   (env.VITE_NETWORK as Network) || Network.Testnet;
+export const ENDPOINTS = getNetworkEndpoints(NETWORK);
 
 export const IS_TESTNET: Boolean = [
   Network.Testnet,
