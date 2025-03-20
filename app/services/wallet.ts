@@ -12,6 +12,7 @@ export const walletStrategy = new WalletStrategy({
     ethereumChainId: ETHEREUM_CHAIN_ID,
     rpcUrl: alchemyRpcEndpoint,
   },
+  strategies: {}
 });
 
 export const getAddresses = async (): Promise<string[]> => {
